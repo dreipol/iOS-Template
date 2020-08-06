@@ -9,6 +9,13 @@ checks:
   method-complexity:
     config:
       threshold: 10
+  method-length:
+    config:
+      threshold: 35
+  argument-count:
+    config:
+      threshold: 5
+
 exclude_patterns:
  - "config/"
  - "db/"
@@ -19,7 +26,8 @@ exclude_patterns:
  - "**/spec/"
  - "**/test/"
  - "**/tests/"
- - "Tests/"
  - "**/vendor/"
  - "**/*_test.go"
  - "**/*.d.ts"
+ - "**/Pods/"
+ - "**/Tests/"
