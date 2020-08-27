@@ -9,7 +9,7 @@ checks:
   method-complexity:
     config:
       threshold: 10
-  method-length:
+  method-lines:
     config:
       threshold: 35
   argument-count:
